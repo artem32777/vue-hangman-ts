@@ -1,51 +1,20 @@
-<<<<<<< HEAD
-# vue-hangman-ts
+# Описание
 
-This template should help get you started developing with Vue 3 in Vite.
+Мой первый обучающий проект по фреймворкам и TS-у
 
-## Recommended IDE Setup
+Запуск приложения: https://artem32777.github.io/vue-hangman-ts/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Технологии: Vue 3 Composition API + TypeScript
 
-## Type Support for `.vue` Imports in TS
+Учился запускать, знакомился с синтаксисом, изучал директивы и т.д.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Повторял по видео автора с ютуба: https://www.youtube.com/watch?v=-wYf6Z6Meys&t
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+# Инструкция
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Программа загадывает рандомное русское имя с буквами в нижнем регистре
+2. Включите русскую раскладку
+3. Начните угадывать, нажимая первую букву (подсказка: лучше с гласных)
+4. Ошибок можно сделать не более, чем букв в имени.
+5. После закрытия попапа, игра автоматически начнётся заново с новым именем.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-=======
-# hungman-vue-ts
-Первая обучающая работа по Vue + TS
->>>>>>> cd82f3ceb4d21a7bbf691bcdc790e037a6f6d4aa
